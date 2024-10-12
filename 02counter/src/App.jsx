@@ -11,6 +11,8 @@ const [counter, setCounter] = useState(15);
 
   const addValue =()=>{ 
 
+    setCounter(counter + 1)
+    
     // Work like a bunch (one task is complete and other are ignore as all are same task)
     // setCounter(counter + 1)
     // setCounter(counter + 1)
